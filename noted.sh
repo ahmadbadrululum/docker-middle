@@ -35,3 +35,13 @@ docker container create --name add dodocker build -t dockerin635/add
 docker container start add
 
 docker container logs add
+
+
+# 36 COPY Instruction
+docker build -t dockerin635/copy copy
+
+docker container create --name copy dockerin635/copy
+
+docker container start copy
+
+docker container logs copy
