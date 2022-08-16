@@ -26,3 +26,12 @@ docker container logs command
 docker build -t dockerin635/label label
 
 docker image inspect dockerin635/label
+
+# 35 ADD Instruction
+docker build -t dockerin635/add add
+
+docker container create --name add dodocker build -t dockerin635/add
+
+docker container start add
+
+docker container logs add
